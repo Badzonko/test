@@ -1,0 +1,73 @@
+body {
+    z-index: 0;
+}
+@font-face{
+   font-family:'myFont';
+   src: 
+   url(./gotham-cufonfonts-webfont/GothamBold.woff);
+   
+}
+@font-face{
+    font-family:'myFont1';
+    src: url(./gotham-cufonfonts-webfont/GothamMedium.woff);
+
+}
+@font-face{
+    font-family:'myFont2';
+    src:url(./gotham-cufonfonts-webfont/GothamBook.woff);
+}
+.download {	padding-top:32px;
+padding-bottom: 140px;
+padding-left: 30px;}
+.combined-shape {	padding-top:35px;
+   
+    padding-right: 35px;}
+.welcome-to-our-blog {	
+    height: 285px;
+        width: 1138px;	
+        color: #333333;	
+        font-family:'myFont';	
+        font-size: 90px;	
+        font-weight: bold;	
+        letter-spacing: 0.3px;	
+        line-height: 95px;
+    }
+    .peding{
+        padding-top: 130px;
+    }
+    .line-5 {	box-sizing: border-box;
+            height: 55px;	
+            width: 1px;
+            	border-left: 3px solid #AB4D8E;}
+    .bojan-stefanovic-log {	height: 49px;
+            width: 516px;	
+            color: #333333;	
+            font-family: 'myFont1';	
+            font-size: 36px;
+                font-weight: 500;	
+                line-height: 36px;}
+    .double-interview {	height: 36px;	
+        width: 405px;	
+        color: #333333;	
+        font-family: 'myFont1';
+            font-size: 36px;
+                font-weight: 500;
+                    line-height: 36px;}
+    .container1{
+        padding-top:33px;
+      
+    }
+    .container2{
+        padding-top:14px;
+    }
+    .lorem-ipsum-dolor-si-copy {	height: 99px;	width: 530px;	color: #333333;	font-family: 'myFont2';	font-size: 20px;	font-weight: 300;	line-height: 33px;}
+    .the-barbers {	height: 36px;	width: 235px;	color: #333333;	font-family: 'myFont1';	font-size: 36px;	font-weight: 500;	line-height: 36px;}
+    .how-to-find-an-agenc {
+        height: 77px;
+        width: 488px;
+        color: #333333;
+        font-family: 'myFont1';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 36px;
+    }

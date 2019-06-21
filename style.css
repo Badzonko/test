@@ -22,6 +22,17 @@ padding-left: 30px;}
 .combined-shape {	padding-top:35px;
    
     padding-right: 35px;}
+    .telefon{
+        display:grid;
+        grid-template-columns: auto auto auto;
+
+       
+    }
+    .slicica{
+        display:grid;
+        align-self:start;
+        justify-content:end;
+    }
 .welcome-to-our-blog {	
     height: 285px;
         width: 1138px;	
@@ -107,10 +118,21 @@ padding-left: 30px;}
             padding-left: 26px;
             
         }
-        .combined-shape {	padding-top:33px;
-        padding-bottom:53px;
-        padding-right:27px;
+        .combined-shape {padding-top:33px;
+            padding-bottom:53px;
+            padding-right:27px;	
         
+        }
+        .telefon{
+            display:grid;
+            grid-template-columns: auto auto auto;
+
+           
+        }
+        .slicica{
+            display:grid;
+            align-self:end;
+            justify-content:end;
         }
         .welcome-to-our-blog{
              height: 201px;	width: 576px;	color: #333333;	font-family: 'myFont';	font-size: 42px;	font-weight: bold;	line-height: 67px;
@@ -170,6 +192,20 @@ padding-left: 30px;}
         padding-right:13px;
         
         }
+        .tablet{
+            display:none;
+        }
+        .telefon{
+            display:grid;
+            grid-template-columns: auto auto auto;
+
+           
+        }
+        .slicica{
+            display:grid;
+            align-self:end;
+            justify-content:end;
+        }
         .welcome-to-our-blog{
             height: 123px;	width: 295px;	color: #333333;	font-family: 'myFont';	font-size: 26px;	font-weight: bold;	line-height: 39px;        }
         #klasa1 {
@@ -179,25 +215,30 @@ padding-left: 30px;}
         }
         .klasa2{
             height: 174px;	width: 295px; 
+            padding-bottom:10px!important;
         }
         #klasa3{
-            padding-top:10px;
-            padding-left:7px;
+            
+            
         }
         .bojan-stefanovic-log {	padding-left:5px !important;padding-top:10px !important;	height: 25px;	width: 287px;	color: #333333;	font-family: 'myFont1';	font-size: 18px;	font-weight: 500;	line-height: 26px;}
         .lorem-ipsum-dolor-si-copy {padding-left:5px !important;padding-top:4px !important;	height: 63px;	width: 287px;	color: #333333;	font-family: 'myFont2';	font-size: 12px;	font-weight: 300;	line-height: 21px;}
         .double-interview {padding-left:5px !important;padding-top:10px !important;height: 26px;	width: 287px;	color: #333333;	font-family: 'myFont1';	font-size: 18px;	font-weight: 500;	line-height: 26px;}
         .line-5 {	
-            padding-top:10px;
+            
             height: 25px;	
             border-left: 2px solid #AB4D8E;}
             .line-6 {	
-                padding-top:10px;
+                
                 height: 25px;	
                 border-left: 2px solid #ffffff;
             }
-           
+           .klasa4{}
+           .klasa5{}
+           .klasa6{}
+           .klasa7{}
         
     
     }
+
     

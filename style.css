@@ -7,6 +7,9 @@ body {
    url(./gotham-cufonfonts-webfont/GothamBold.woff);
    
 }
+.divcicc{
+    display: none;
+}
 @font-face{
     font-family:'myFont1';
     src: url(./gotham-cufonfonts-webfont/GothamMedium.woff);
@@ -97,6 +100,9 @@ padding-left: 30px;}
     }
     @media only screen and (max-width: 768px){
         body{z-index:0 !important;}
+        .divcicc{
+            display: none;
+        }
         .divcic {
         
             display: grid;
@@ -167,7 +173,7 @@ padding-left: 30px;}
         body{z-index:0 !important;}
         .divcic{display:none;}
         .divcicc {
-        
+            display: block;
             display:grid;
             grid-template-columns: 295px ;
             grid-template-rows: 174px;
